@@ -40,3 +40,8 @@ CounterTest >> testIncrement [ |c|
 CounterTest >> testInitialize [
          self assert: Counter new count equals: 0
 ]
+
+{ #category : 'tests' }
+CounterTest >> testPrintOn [
+	self assert: Counter new printString equals: 'a Counter with value: 0'
+]
