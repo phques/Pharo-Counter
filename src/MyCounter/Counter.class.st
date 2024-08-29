@@ -52,5 +52,5 @@ Counter >> printOn: aStream [
 	super printOn: aStream.
 	aStream
 		nextPutAll: ' with value: ';
-		nextPutAll: count printString
+		nextPutAll: count printString.
 ]
